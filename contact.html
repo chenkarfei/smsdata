@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact SMS Data Ltd</title>
+  <meta name="description" content="Contact SMS Data Ltd for business enquiries, platform access, support, compliance questions, and privacy requests.">
+  <link rel="canonical" href="https://smsdata.net/contact">
+  <link rel="icon" type="image/png" href="assets/smsdata_logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><img src="assets/smsdata_logo.png" alt="SMS Data Ltd"></a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="platform.html" class="nav-link">Platform</a>
+      <a href="verification.html" class="nav-link">Verification</a>
+      <a href="compliance.html" class="nav-link">Compliance</a>
+      <a href="about.html" class="nav-link">About</a>
+    </div>
+    <div class="nav-cta-wrap"><a href="contact.html" class="btn btn-primary btn-sm">Request Access</a></div>
+    <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="index.html" class="nav-link">Home</a>
+  <a href="platform.html" class="nav-link">Platform</a>
+  <a href="verification.html" class="nav-link">Verification</a>
+  <a href="compliance.html" class="nav-link">Compliance</a>
+  <a href="about.html" class="nav-link">About</a>
+  <a href="contact.html" class="nav-link">Contact</a>
+  <a href="contact.html" class="btn btn-primary" style="margin-top:16px;">Request Access</a>
+</div>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <span class="section-label" style="color:rgba(255,255,255,.6);">Contact</span>
+    <h1>Contact SMS Data Ltd</h1>
+    <p class="lead">Get in touch with our team about platform access, support, compliance, or privacy matters.</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section">
+  <div class="container">
+    <!-- Contact cards -->
+    <div class="grid-4" style="margin-bottom:64px;">
+      <a href="mailto:contact@smsdata.net" class="contact-card fade-up fade-up-delay-1">
+        <div class="contact-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div>
+          <div class="contact-card-label">General Enquiries</div>
+          <div class="contact-card-value">contact@smsdata.net</div>
+        </div>
+      </a>
+      <a href="mailto:support@smsdata.net" class="contact-card fade-up fade-up-delay-2">
+        <div class="contact-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </div>
+        <div>
+          <div class="contact-card-label">Customer Support</div>
+          <div class="contact-card-value">support@smsdata.net</div>
+        </div>
+      </a>
+      <a href="mailto:compliance@smsdata.net" class="contact-card fade-up fade-up-delay-3">
+        <div class="contact-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div>
+          <div class="contact-card-label">Compliance Enquiries</div>
+          <div class="contact-card-value">compliance@smsdata.net</div>
+        </div>
+      </a>
+      <a href="mailto:privacy@smsdata.net" class="contact-card fade-up fade-up-delay-4">
+        <div class="contact-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <div>
+          <div class="contact-card-label">Privacy Requests</div>
+          <div class="contact-card-value">privacy@smsdata.net</div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Form + sidebar -->
+    <div class="grid-2" style="gap:56px;align-items:start;">
+      <div class="fade-up">
+        <div class="form-card">
+          <div class="form-body">
+            <h2 style="margin-bottom:8px;">Send us an enquiry</h2>
+            <p style="color:var(--color-text-body);margin-bottom:32px;font-size:.9375rem;">Please provide a short description of your business and the reason for your enquiry. If you are requesting platform access, include your company name, website, jurisdiction, and intended use case.</p>
+
+            <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="name">Full name <span>*</span></label>
+                  <input class="form-input" type="text" id="name" name="name" placeholder="Jane Smith" autocomplete="name">
+                  <div class="form-error" id="name-error">Please enter your full name.</div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="company">Company name <span>*</span></label>
+                  <input class="form-input" type="text" id="company" name="company" placeholder="Acme Corp Ltd" autocomplete="organization">
+                  <div class="form-error" id="company-error">Please enter your company name.</div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="email">Work email <span>*</span></label>
+                  <input class="form-input" type="email" id="email" name="email" placeholder="jane@company.com" autocomplete="email">
+                  <div class="form-error" id="email-error">Please enter a valid work email.</div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="country">Country <span>*</span></label>
+                  <select class="form-select" id="country" name="country">
+                    <option value="">Select country…</option>
+                    <option>Hong Kong</option>
+                    <option>United Kingdom</option>
+                    <option>United States</option>
+                    <option>Singapore</option>
+                    <option>Australia</option>
+                    <option>Canada</option>
+                    <option>Germany</option>
+                    <option>France</option>
+                    <option>Japan</option>
+                    <option>South Korea</option>
+                    <option>United Arab Emirates</option>
+                    <option>Other</option>
+                  </select>
+                  <div class="form-error" id="country-error">Please select your country.</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="reason">Reason for enquiry <span>*</span></label>
+                <select class="form-select" id="reason" name="reason">
+                  <option value="">Select reason…</option>
+                  <option>Platform access request</option>
+                  <option>General business enquiry</option>
+                  <option>Customer support</option>
+                  <option>Compliance question</option>
+                  <option>Privacy request</option>
+                  <option>Partnership enquiry</option>
+                  <option>Other</option>
+                </select>
+                <div class="form-error" id="reason-error">Please select a reason for enquiry.</div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="message">Message <span>*</span></label>
+                <textarea class="form-textarea" id="message" name="message" placeholder="Tell us about your business and what you need…"></textarea>
+                <div class="form-error" id="message-error">Please enter your message.</div>
+              </div>
+              <div class="form-submit">
+                <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;">
+                  Send Enquiry
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+              </div>
+            </form>
+
+            <div class="form-note" style="margin-top:20px;">
+              Access to SMS Data Ltd products is subject to review and may require business verification, identity verification, sanctions screening, or additional information before access is granted.
+            </div>
+          </div>
+
+          <!-- Success state -->
+          <div class="form-success">
+            <div class="form-success-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <h3>Enquiry received</h3>
+            <p>Thank you for contacting SMS Data Ltd. We have received your enquiry and will review the information provided.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="fade-up fade-up-delay-2">
+        <h3 style="margin-bottom:20px;">Registered Office</h3>
+        <div style="padding:28px;background:var(--color-bg-subtle);border:1px solid var(--color-border);border-radius:var(--radius-lg);margin-bottom:28px;">
+          <p style="font-size:.9375rem;color:var(--color-text-body);line-height:1.7;">
+            SMS Data Ltd<br>
+            RM 7B, One Capital Place<br>
+            18 Luard Road Wanchai<br>
+            Hong Kong
+          </p>
+        </div>
+        <div style="padding:28px;background:linear-gradient(135deg,rgba(37,99,235,.06),rgba(124,58,237,.05));border:1px solid rgba(37,99,235,.15);border-radius:var(--radius-lg);">
+          <h4 style="margin-bottom:12px;">Access Request</h4>
+          <p style="font-size:.9rem;color:var(--color-text-body);line-height:1.65;">Platform access is restricted to approved business customers. Verification, including business verification, identity checks, and sanctions screening, may be required before access is granted.</p>
+          <a href="verification.html" style="display:inline-flex;align-items:center;gap:6px;margin-top:16px;font-size:.875rem;font-weight:600;color:var(--color-primary);">
+            Learn about verification
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><img src="assets/smsdata_logo.png" alt="SMS Data Ltd"><p>SMS Data Ltd provides secure data intelligence, risk analytics, and onboarding workflow tools for verified businesses.</p></div>
+    <div class="footer-col"><h5>Company</h5><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="footer-col"><h5>Platform</h5><ul><li><a href="platform.html">Platform</a></li><li><a href="verification.html">Verification</a></li><li><a href="compliance.html">Compliance</a></li></ul></div>
+    <div class="footer-col footer-contact"><h5>Contact</h5><ul><li><a href="mailto:contact@smsdata.net">contact@smsdata.net</a></li><li><a href="mailto:support@smsdata.net">support@smsdata.net</a></li><li><a href="mailto:compliance@smsdata.net">compliance@smsdata.net</a></li><li><a href="mailto:privacy@smsdata.net">privacy@smsdata.net</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px;">
+      <p class="footer-legal">&copy; SMS Data Ltd. All rights reserved.<br><strong>Legal name:</strong> SMS Data Ltd. <strong>Company number:</strong> 67384392. <strong>Registered office:</strong> RM 7B, One Capital Place, 18 Luard Road Wanchai, Hong Kong.</p>
+      <nav aria-label="Legal links"><ul style="display:flex;gap:20px;list-style:none;"><li><a href="privacy-policy.html" style="font-size:.8125rem;color:rgba(255,255,255,.4);">Privacy Policy</a></li><li><a href="terms-of-service.html" style="font-size:.8125rem;color:rgba(255,255,255,.4);">Terms of Service</a></li><li><a href="cookie-policy.html" style="font-size:.8125rem;color:rgba(255,255,255,.4);">Cookie Policy</a></li></ul></nav>
+    </div>
+  </div>
+</footer>
+<div class="cookie-banner hidden" id="cookie-banner"><p>We use cookies for website functionality, security, and analytics. <a href="cookie-policy.html">Learn more</a></p><div class="cookie-actions"><button id="cookie-accept" class="btn btn-primary btn-sm">Accept</button></div></div>
+<script src="js/main.js"></script>
+</body>
+</html>
