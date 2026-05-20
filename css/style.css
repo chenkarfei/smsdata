@@ -691,6 +691,21 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 }
 .stat-label { font-size: 0.875rem; color: var(--color-text-muted); font-weight: 500; }
 
+/* ---------- Stats section (dark bg) ---------- */
+.stats-section {
+  background: var(--color-bg-dark);
+  padding: 40px 0;
+}
+.stats-section .stats-grid {
+  border-color: var(--color-border-dark);
+}
+.stats-section .stat-item {
+  border-right-color: var(--color-border-dark);
+}
+.stats-section .stat-label {
+  color: rgba(255,255,255,.5);
+}
+
 /* ---------- Legal Pages ---------- */
 .legal-layout {
   display: grid;
