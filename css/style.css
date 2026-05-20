@@ -1022,6 +1022,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   display: flex;
   gap: 16px;
   padding: 24px 28px;
+  height: 100%;
   background: linear-gradient(135deg, rgba(37,99,235,.06), rgba(124,58,237,.05));
   border: 1px solid rgba(37,99,235,.18);
   border-radius: var(--radius-lg);
